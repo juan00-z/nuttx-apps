@@ -106,7 +106,7 @@ static FAR const char *const g_resetcause[] =
   "cpu_rtc_watchdog",
   "pin",
   "lowpower",
-  "unkown"
+  "unknown"
 };
 #endif
 
