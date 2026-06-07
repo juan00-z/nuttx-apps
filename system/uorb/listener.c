@@ -917,7 +917,7 @@ static void listener_monitor(FAR struct listen_list_s *objlist,
         }
     }
 
-  /* Loop poll and print recieved messages */
+  /* Loop poll and print received messages */
 
   while ((!nb_msgs || nb_recv_msgs < nb_msgs) && !g_should_exit)
     {
@@ -981,7 +981,7 @@ static void listener_monitor(FAR struct listen_list_s *objlist,
             }
 
           orb_unsubscribe(fds[i].fd);
-          uorbinfo_raw("Object name:%s%d, recieved:%d",
+          uorbinfo_raw("Object name:%s%d, received:%d",
                        tmp->object.meta->o_name, tmp->object.instance,
                        recv_msgs[i]);
         }
