@@ -18,6 +18,9 @@
  *
  ****************************************************************************/
 
+#ifndef __APPS_EXAMPLES_BLE_SENSORS_H
+#define __APPS_EXAMPLES_BLE_SENSORS_H
+
 /****************************************************************************
  * Included Files
  ****************************************************************************/
@@ -60,3 +63,5 @@ int init_sensors(void);
 /* Closes the sensors' file descriptors */
 
 void close_sensors_fd(void);
+
+#endif /* __APPS_EXAMPLES_BLE_SENSORS_H */
